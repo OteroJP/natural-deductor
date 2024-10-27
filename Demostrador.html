@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="author" content="PB">
+    <meta name="description" content="Demostrador">
+    <link rel="stylesheet" type="text/css" href="Demostrador_files/style.css">
+    <title>Demostrador</title>
+    <script type="text/javascript" src="Demostrador_files/symbols.js"></script>
+    <script type="text/javascript" src="Demostrador_files/symbols.js" defer></script>
+    <script type="text/javascript" src="Demostrador_files/forms.js" defer></script>
+    <script type="text/javascript" src="Demostrador_files/parser.js" defer></script>
+    <script type="text/javascript" src="Demostrador_files/rules.js" defer></script>
+    <script type="text/javascript" src="Demostrador_files/dom.js" defer></script>
+    <script type="text/javascript" src="Demostrador_files/prover.js" defer></script>
+  </head>
+  <body onload="main()">
+    <div id="prompt">
+    <input type="text" style="width: 54ch;" value="forall x p(x), forall x q(x) |- forall x (p(x) &amp; q(x))"><input type="button" value="Empezar"></div>
+    <div id="main">
+      <div id="derivation"><div class="derivation"><div class="premises"></div><div class="sequent selected">∀x.p(x),∀x.q(x)⊢∀x.(p(x)∧q(x))</div></div></div>
+      <div id="options"><div class="options"><div class="option"><input type="button" value="∀i"><div class="errmsg"></div></div><div class="option"><input type="button" value="∧e1"><input type="text" style="width: 1ch;" value="p"><div class="errmsg"></div></div><div class="option"><input type="button" value="∧e2"><input type="text" style="width: 1ch;" value="p"><div class="errmsg"></div></div><div class="option"><input type="button" value="⇒e"><input type="text" style="width: 1ch;" value="p"><div class="errmsg"></div></div><div class="option"><input type="button" value="∨e"><input type="text" style="width: 3ch;" value="p∨q"><div class="errmsg"></div></div><div class="option"><input type="button" value="⊥e"><div class="errmsg"></div></div><div class="option"><input type="button" value="∀e"><input type="text" style="width: 7ch;" value="∀x p(x)"><input type="text" style="width: 1ch;" value="t"><div class="errmsg"></div></div><div class="option"><input type="button" value="∃e"><input type="text" style="width: 8ch;" value="∃ x p(x)"><div class="errmsg"></div></div></div></div>
+    </div>
+  
+
+</body></html>
