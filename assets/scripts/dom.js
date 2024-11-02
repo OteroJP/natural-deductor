@@ -43,6 +43,14 @@ function P(child) {
   return elem;
 }
 
+// change to add some doom manipulation
+function SPAN(child) {
+  let elem = document.createElement('span');
+  elem.appendChild(child);
+  return elem;
+}
+
+
 function TEXT(str) {
   return document.createTextNode(str);
 }
